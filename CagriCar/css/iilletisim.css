@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.login{
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title{
+    text-align: center;
+    color: #777;
+}
+
+
+.control-group{
+    margin-bottom: 10px
+}
+
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 2oo;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus{
+    border: 2px solid #3498D8;
+    box-shadow: none;
+}
+
+.btn{
+    border: 2px solid transparent;
+    background: #3498D8;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    background-color: #2980B9;
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: #e5cf09;
+}
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 180px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 50px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #878508;
+    
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.features-body .container {
+    justify-content: space-between;
+}
+
+.iletisim-kismi {
+    padding: 80px 0;
+}
+
+.konteynir {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.iletisim .konteynir {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 30px;
+}
+
+.col3 img {
+    border-radius: 70px;
+}
+
+.col3 a {
+    font-size: 40px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.iletisim-konteynir {
+    position: relative;
+    width: 100%;
+}
+
+.fotograf-over {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.iletisim-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38,92,255,.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    text-align: center;
+    border-radius: 70px;
+    
+}
+
+.iletisim-konteynir:hover .iletisim-overlay {
+    width: 100%;
+    border-radius: 70px;
+}
+
+.iletisim-link {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iletisim-iletisim-kismi {
+    background: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../resimler/aracici.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    
+}
+
+footer-linkleri a{
+    color: #e5cf09;
+}
+
+.footer-item {
+    padding: 90px;
+    text-align: center;
+}
+
+.footer-item img {
+    height: 150px;
+    
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.footer-item a {
+    height: 60px;
+    color: #e5cf09;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

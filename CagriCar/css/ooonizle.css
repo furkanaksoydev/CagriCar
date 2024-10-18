@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    font-family: Arial;
+    background: #e2def7;
+}
+
+.login{
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title{
+    text-align: center;
+    color: #777;
+}
+
+
+.control-group{
+    margin-bottom: 10px
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: #e5cf09;
+}
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 180px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 50px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #878508;
+    
+}
+
+
+.features-body .container {
+    justify-content: space-between;
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.item .item-text {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #265CFF;
+}
+
+.item:hover .zoom img {
+    transform: scale(1.25);
+}
+
+.item:hover h3 {
+    color: #fff;
+}
+
+.item:hover .item-text {
+    background: #265CFF;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.satir {
+    display: flex;
+    flex-wrap: wrap;
+}
+.urun {
+    flex: 1 0 15%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.arac-detay {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arac-detay h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.arac-detay img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.detay-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.detay-table th, .detay-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.detay-table th {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bold;
+}
+
+.detay-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.detay-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.arac-detay {
+    flex: 1;
+}
+
+.siparis-form {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.siparis-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.siparis-form input[type="text"], .siparis-form input[type="tel"], .siparis-form input[type="number"], .siparis-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.siparis-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.siparis-form button:hover {
+    background-color: #45a049;
+}
+
+.arac-detay {
+    margin-top: 20px;
+}
+
+.detay-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.detay-table th,
+.detay-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.detay-table th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../resimler/aracici.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    
+}
+
+footer-linkleri a{
+    color: #e5cf09;
+}
+
+.footer-item {
+    padding: 90px;
+    text-align: center;
+}
+
+.footer-item img {
+    height: 150px;
+    
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.footer-item a {
+    height: 60px;
+    color: #e5cf09;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

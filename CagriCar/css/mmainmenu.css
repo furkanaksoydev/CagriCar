@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../resimler/arkaplan.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title{
+    text-align: center;
+    color: #777;
+}
+
+
+.control-group{
+    margin-bottom: 10px
+}
+
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 2oo;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus{
+    border: 2px solid #3498D8;
+    box-shadow: none;
+}
+
+.btn{
+    border: 2px solid transparent;
+    background: #3498D8;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    background-color: #2980B9;
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: #e5cf09;
+}
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 180px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 50px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #878508;
+    
+}
+
+.slogan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.slogan h5 {
+    font-size: 3em;
+    margin: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.features-body .container {
+    justify-content: space-between;
+}
+
+.gallery {
+    position: relative; /* Ensure the gallery is positioned relatively */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* or 'cover' depending on your preference */
+    display: none; /* Hide all images by default */
+}
+
+.gallery img:first-child {
+    display: block; /* Display the first image initially */
+}
+
+.navigation {
+    position: absolute; /* Position navigation buttons */
+    top: 50%; /* Align vertically centered */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for buttons */
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1; /* Ensure buttons are above images */
+}
+
+.left {
+    left: 10px; /* Adjust as needed to align with the left side */
+}
+
+.right {
+    right: 10px; /* Adjust as needed to align with the right side */
+}
+
+
+.aracini-sec {
+    border-radius: 8px;
+    background-color: #cfcfcf;
+    border: 1px solid; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aracini-sec h1 {
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-left: 230px;
+}
+
+
+
+.siparis {
+    border-radius: 8px;
+    background-color: #cfcfcf;
+    border: 1px solid; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.siparis h1 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.siparis p {
+    padding-left: 20px;
+}
+
+footer {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../resimler/aracici.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    
+}
+
+footer-linkleri a{
+    color: #e5cf09;
+}
+
+.footer-item {
+    padding: 90px;
+    text-align: center;
+}
+
+.footer-item img {
+    height: 150px;
+    
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.footer-item a {
+    height: 60px;
+    color: #e5cf09;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
